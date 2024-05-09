@@ -1,0 +1,23 @@
+.promo__city {
+    width: 101.5rem;
+    height: 27.73rem;
+    position: absolute;
+    bottom: 0;
+    right: 8.375rem;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__city  {
+        right: -8.5rem;
+        clip-path: polygon(0 0, calc(100% - 8.5rem) 0, calc(100% - 8.5rem) 100%, 0 100%);
+        overflow: hidden;
+      }
+  }
+  
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .promo__city  {
+
+      }
+  }

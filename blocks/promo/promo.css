@@ -1,0 +1,12 @@
+/* 1920px+*/
+.promo{
+  background-color: #E9DED4;
+  height: 700px;
+  position: relative;
+}
+
+@media screen and (max-width: 1919px) {
+  .promo {
+    height: 43.75rem;  
+  }
+}

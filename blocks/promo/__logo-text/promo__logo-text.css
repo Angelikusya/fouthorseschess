@@ -1,0 +1,10 @@
+.promo__logo-text {
+  font-weight: 700;
+  font-size: 1.06rem;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #595653;
+  margin: 0;
+  font-family: "Golos Text", sans-serif;
+  padding-left: 0.288875rem;
+}

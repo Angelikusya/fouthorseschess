@@ -1,0 +1,22 @@
+.promo__horse {
+    width: 12.62rem;
+    height: 13.7rem;
+    position: absolute;
+    bottom: 0;
+    right: 38.0rem;
+    transform: rotate(-1.7deg);
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__horse {
+        right: 20.35rem; 
+    }
+  }
+  
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .promo__horse {
+
+    }
+}

@@ -1,0 +1,23 @@
+.promo__chess-right{
+    width: 8.5rem;
+    height: 16rem;
+    position: absolute;
+    bottom: 17.25rem;
+    right: 27.4rem;
+    transform: rotate(-.3deg);
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__chess-right{
+        bottom: 17.25rem;
+        right: 9.965rem;
+    }
+}
+  
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .promo__chess-right {
+
+    }
+}

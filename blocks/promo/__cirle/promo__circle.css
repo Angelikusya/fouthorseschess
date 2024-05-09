@@ -1,0 +1,19 @@
+.promo__circle {
+    width: 41.25rem;
+    height: 41.25rem;
+    background-color: #FBCE51;
+    border-radius: 100%;
+    position: absolute;
+    top: -2.75rem;
+    right: 19.22rem;
+    overflow: hidden;
+
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1919px) {
+    .promo__circle  {
+      top: -2.75rem;
+      right: 1.5rem;
+      }
+  }

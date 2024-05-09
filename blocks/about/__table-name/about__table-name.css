@@ -1,0 +1,16 @@
+.about__table-name {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 120%;
+    color: #313131;
+    opacity: 0.7;
+    border-right: 2px solid #d0d0d0; 
+    border-bottom: 2px solid #d0d0d0; 
+    padding: 1rem 0 0 0;
+    min-width: 19.125rem;
+    margin: 0;
+}
+
+.about__table-graph:last-child .about__table-name {
+    border-bottom: none;
+}

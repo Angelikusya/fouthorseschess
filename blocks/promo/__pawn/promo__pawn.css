@@ -1,0 +1,21 @@
+.promo__pawn {
+    width: 5.19rem;
+    height: 7.62rem;
+    position: absolute;
+    bottom: 1.22375rem;
+    right: 20rem;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__pawn {
+        right: 3rem;
+    }
+  }
+  
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .promo__pawn {
+
+    }
+}

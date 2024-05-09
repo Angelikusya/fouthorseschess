@@ -1,0 +1,26 @@
+.promo__running-text {
+    font-weight: 400;
+    font-size: 1.38rem;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    font-family:  "Merriweather", Arial, Helvetica, sans-serif;
+    margin: 0;
+    white-space: nowrap;
+    width: 100vw;
+    display: inline-block;
+    height: 1.518rem; 
+    overflow: hidden;
+    
+    /* animation: slide 10s linear infinite; */
+}
+
+/* @keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+} */

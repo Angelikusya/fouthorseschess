@@ -1,0 +1,13 @@
+.promo__running-line {
+    display: flex;
+    align-items: center;
+    background: #f54932;
+    height: 3.63rem;
+    position: absolute;
+    margin: 0;
+    z-index: 10;
+    bottom: -3.63rem;
+    width: 100%;
+    overflow: hidden;
+}
+

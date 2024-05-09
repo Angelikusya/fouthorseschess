@@ -1,0 +1,12 @@
+/* 1920+*/
+.stages {
+    display: none;
+}
+
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .stages {
+        margin: 10.2rem 4.5rem 0;
+    }
+}

@@ -1,0 +1,22 @@
+.promo__button-black {
+    border-radius: 4.12rem;
+    padding: 1.25rem;
+    min-width: 16.44rem;
+    min-height: 4.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    background: #1f1f1f;
+    cursor: pointer;
+    z-index: 3;
+    transition: background-color 0.4s, color 0.4s;
+    border: #1f1f1f;
+}
+
+.promo__button-black:hover {
+    background: #fbce51;
+    color: #1f1f1f;
+    border: 2px solid #fbce51;
+}

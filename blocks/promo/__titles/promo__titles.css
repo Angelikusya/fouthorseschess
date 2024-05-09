@@ -1,0 +1,19 @@
+.promo__titles {
+    margin: 3.875rem 0 0 21.844rem;
+    z-index: 10;
+    position: absolute;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__titles {
+        margin: 3.875rem 0 0 4.5rem;
+    }
+  }
+  
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .promo__titles {
+
+      }
+  }

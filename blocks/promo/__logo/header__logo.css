@@ -1,0 +1,20 @@
+.promo__logo {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  padding: 1.64rem 0 0 21.844rem;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+  .promo__logo {
+    padding: 1.625rem 0 0 4.5rem;
+  }
+}
+
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+  .promo__logo {
+
+    }
+}

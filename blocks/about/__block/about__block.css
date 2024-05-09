@@ -1,0 +1,5 @@
+.about__block{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 1.3rem;
+}

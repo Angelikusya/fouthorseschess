@@ -1,0 +1,34 @@
+.promo__circle-image {
+    position: absolute;
+    top: -3.5rem;
+    left: -3.5rem;
+    width: 48rem;
+    height: 48rem;
+    mix-blend-mode: overlay;
+    animation: rotate 26s linear infinite;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .promo__circle-image {
+        
+    }
+  }
+  
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .promo__circle-image  {
+
+      }
+  }
+
+
+/* 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */

@@ -1,0 +1,19 @@
+/* 1920+*/
+.about {
+    display: none;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .about {
+        display: block;
+        margin: 8.5rem 2.5rem 0 2.5rem ;
+    }
+}
+ 
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about {
+
+    }
+}
