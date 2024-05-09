@@ -1,7 +1,6 @@
 console.log('код работает');
 
 // animation without duplication the text
-
 let el = document.getElementById('promo__running-text');
 let text = el.getAttribute('data-text');
 let span = el.querySelector('span');
@@ -16,6 +15,16 @@ setInterval(function() {
     }
 }, 250);
 
+// link from button to section about
+document.querySelector('.promo__button-black').addEventListener('click', function() {
+    console.log('код работает');
+    window.location.href = '#about';
+});
 
+// link from button to section stages
+document.querySelector('.promo__button-transparent').addEventListener('click', function() {
+    console.log('код работает');
+    window.location.href = '#stages';
+});
 
-
+// switcher

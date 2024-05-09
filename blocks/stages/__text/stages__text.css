@@ -4,10 +4,11 @@
     line-height: 120%;
     color: #313131;
     max-width: 18.875rem;
-    margin: 0 0 0 1rem;
+    padding: 0 0 0 1rem;
+    margin: 0;
 }
 
 
-/* .stages__text:last-of-type {
-    max-width: 27.876rem;
-} */
+.stages__text:last-of-type {
+    max-width: 24rem;
+}

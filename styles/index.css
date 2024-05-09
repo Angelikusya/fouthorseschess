@@ -51,3 +51,22 @@
 @import url("../blocks/stages/__text/stages__text.css");
 @import url("../blocks/stages/__title/stages__title.css");
 @import url("../blocks/stages/__photo/stages__photo.css");
+/* patricipants */
+@import url("../blocks/participants/participants.css");
+@import url("../blocks/participants/__container/participants__container.css");
+@import url("../blocks/participants/__title/participants__title.css");
+@import url("../blocks/participants/__switsher/participants__switsher.css");
+@import url("../blocks/participants/__button-left/participants__button-left.css");
+@import url("../blocks/participants/__counters/participants__counters.css");
+@import url("../blocks/participants/__counter/participants__counter.css");
+@import url("../blocks/participants/__counter/_dark/participants__counter_dark.css");
+@import url("../blocks/participants/__button-right/participants__button-right.css");
+@import url("../blocks/participants/__group/participants__group.css");
+@import url("../blocks/participants/__photo/participants__photo.css");
+@import url("../blocks/participants/__name/participants__name.css");
+@import url("../blocks/participants/__description/participants__description.css");
+@import url("../blocks/participants/__more/participants__more.css");
+@import url("../blocks/participants/__card/participants__card.css");
+/* footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/footer__text/footer__text.css");

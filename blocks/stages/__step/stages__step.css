@@ -5,7 +5,6 @@
     background: url('../../../images/stages-background1.webp') no-repeat;
     padding: 1rem;
     background-size: cover;
-
 }
 
 .stages__step:nth-child(3),

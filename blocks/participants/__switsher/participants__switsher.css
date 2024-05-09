@@ -1,0 +1,4 @@
+.participants__switsher {
+    display: flex;
+    flex-direction: row;
+}

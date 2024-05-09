@@ -1,13 +1,19 @@
 /* 1920+*/
-.stages {
+.participants {
     display: none;
 }
 
-
 /* 1365-1919px+*/
 @media screen and (max-width: 1919px) {
-    .stages {
+    .participants {
         display: block;
         margin: 10.2rem 4.5rem 0;
+    }
+}
+ 
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .participants {
+
     }
 }
