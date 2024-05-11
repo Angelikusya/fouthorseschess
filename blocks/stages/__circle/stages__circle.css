@@ -1,6 +1,6 @@
 .stages__circle {
     border-radius: 3.75rem;
-    width: 2.25rem;
+    min-width: 2.25rem;
     height: 2.25rem;
     background: #fff;
     font-weight: 600;
@@ -9,5 +9,6 @@
     color: #313131;
     display: flex;
     justify-content: center;
-    align-items: center; /
+    align-items: center;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }

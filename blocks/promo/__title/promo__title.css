@@ -4,8 +4,9 @@
     line-height: 110%;
     text-transform: uppercase;
     color: #313131;
-    font-family: "Merriweather", Arial, sans-serif;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
     margin: 0;
+    letter-spacing: 0px;
 }
 
 

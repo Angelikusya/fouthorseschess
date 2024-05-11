@@ -5,4 +5,14 @@
     text-transform: uppercase;
     color: #313131;
     max-width: 47.55rem;
+    font-family: "Merriweather", Arial, sans-serif;
+    margin: 0;
+}
+
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__title {
+        font-size: 1.75rem;
+        max-width: 20.94rem;
+    }
 }

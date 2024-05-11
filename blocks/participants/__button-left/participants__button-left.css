@@ -2,4 +2,11 @@
     background: url('../../../images/carousel-left.svg') no-repeat;
     width: 44px;
     height: 44px;
+    transition: background 0.4s;
+    border: none;
+    cursor: pointer;
+}
+
+.participants__button-left:hover {
+    background: url('../../../images/carousel-left-hover.svg') no-repeat;
 }

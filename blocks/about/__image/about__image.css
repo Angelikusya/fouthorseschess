@@ -1,5 +1,14 @@
 .about__image {
     width: 35rem;
     height: 37.5rem;
-    margin-left: 0.6rem;
+    margin-left: -1.2rem;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .about__image {
+        width: 23.94rem;
+        height: 27rem;
+        margin-top: 1.4rem;
+    }
 }

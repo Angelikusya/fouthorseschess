@@ -18,6 +18,10 @@
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
     .promo__city  {
-
-      }
+        bottom: 0;
+        right: -6.5rem;
+        height: 15.44rem;
+        width: 55.75rem;
+        clip-path: polygon(0 0, calc(100% - 6.5rem) 0, calc(100% - 6.5rem) 100%, 0 100%);
+    }
   }

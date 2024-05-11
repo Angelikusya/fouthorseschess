@@ -1,7 +1,15 @@
 .promo__logo-img {
   width: 1.353rem;
-  height: 1.94875rem;
+  height: 2.1rem;
   mix-blend-mode: normal;
   color: #595653;
   padding: 0.128rem 0.108rem 0 0;
+}
+
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+  .promo__logo-img {
+    height: 1.7rem;
+    padding: 0.24rem 0 0 0;
+    }
 }

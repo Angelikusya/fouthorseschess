@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   z-index: 2;
-  padding: 1.64rem 0 0 21.844rem;
+  padding: 1.5rem 0 0 21.844rem;
 }
 
 /* 1365-1919px+*/
@@ -15,6 +15,6 @@
 /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
   .promo__logo {
-
+    padding: 1rem 0 0 1.1rem;
     }
 }

@@ -1,0 +1,10 @@
+.about__titles {
+    display: none;
+}
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__titles {
+        display: flex;
+        flex-direction: column;
+    }
+}

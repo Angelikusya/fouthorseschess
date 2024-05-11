@@ -1,0 +1,18 @@
+.running-line__container {
+    display: flex;
+    align-items: center;
+    background: #f54932;
+    min-height: 3.63rem;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .running-line__container{
+        min-height: 2.38rem;
+    }
+}
+

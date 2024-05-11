@@ -4,7 +4,7 @@
     position: absolute;
 }
 
-/* 1365-1919px+*/
+/* 1366-1919px+*/
 @media screen and (max-width: 1919px) {
     .promo__titles {
         margin: 3.875rem 0 0 4.5rem;
@@ -12,8 +12,8 @@
   }
   
   /* 375-1365px+*/
-  @media screen and (max-width: 1365px) {
-    .promo__titles {
-
-      }
+@media screen and (max-width: 1365px) {
+  .promo__titles {
+    margin: 2.65rem 0 0 1.2rem;
   }
+}

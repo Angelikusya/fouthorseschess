@@ -1,3 +1,12 @@
 .about__title_margin {
-    margin-top: 2.5rem;
+    margin-top: 2.8rem;
+    margin-left: 0.9rem;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .about__title_margin {
+        margin-top: 0.35rem;
+        margin-left: 0;
+    }
 }

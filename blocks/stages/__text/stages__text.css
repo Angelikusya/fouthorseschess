@@ -4,11 +4,13 @@
     line-height: 120%;
     color: #313131;
     max-width: 18.875rem;
-    padding: 0 0 0 1rem;
+    padding: 0.077rem 0 0 1rem;
     margin: 0;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
 
 
+
 .stages__text:last-of-type {
-    max-width: 24rem;
+    max-width: 28rem;
 }

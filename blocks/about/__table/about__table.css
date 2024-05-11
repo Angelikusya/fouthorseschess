@@ -1,3 +1,10 @@
 .about__table {
-    margin: 1.2rem 0 0 0;
+    margin: 2.7rem 0 0 1rem;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .about__table {
+        margin: 1.8rem 0 0 0;
+    }
 }

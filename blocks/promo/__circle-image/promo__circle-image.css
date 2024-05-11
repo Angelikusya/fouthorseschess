@@ -8,17 +8,13 @@
     animation: rotate 26s linear infinite;
 }
 
-/* 1365-1919px+*/
-@media screen and (max-width: 1919px) {
-    .promo__circle-image {
-        
-    }
-  }
-  
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
     .promo__circle-image  {
-
+        width: 21.625rem;
+        height: 21.625rem;
+        top: -1.5rem;
+        left: -1.5rem;
       }
   }
 

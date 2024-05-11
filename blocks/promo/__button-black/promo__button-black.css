@@ -1,8 +1,9 @@
 .promo__button-black {
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
     border-radius: 4.12rem;
     padding: 1.25rem;
-    min-width: 16.44rem;
-    min-height: 4.5rem;
+    max-width: 16.44rem;
+    max-height: 4.45rem;
     font-weight: 500;
     font-size: 1rem;
     line-height: 130%;
@@ -13,6 +14,7 @@
     z-index: 3;
     transition: background-color 0.4s, color 0.4s;
     border: #1f1f1f;
+    padding: 0 2.5rem;
 }
 
 .promo__button-black:hover {
@@ -20,3 +22,19 @@
     color: #1f1f1f;
     border: 2px solid #fbce51;
 }
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+  .promo__button-black {
+    min-height: 4.4rem;
+  }
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .promo__button-black {
+        padding: 0.9rem 1rem;
+        max-width: 100%;
+        max-height: 2.94rem;
+      }
+  }

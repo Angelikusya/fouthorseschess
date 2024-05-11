@@ -10,3 +10,9 @@
     height: 43.75rem;  
   }
 }
+
+@media screen and (max-width: 1365px) {
+  .promo {
+    height: 774px;  
+  }
+}

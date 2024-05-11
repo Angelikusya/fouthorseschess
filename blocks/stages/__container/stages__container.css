@@ -1,6 +1,15 @@
 .stages__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 18px;
+    margin-top: 3.36rem;
+    min-width: 76.375;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .stages__container {
+        margin-top: 13rem;
+    }
 }
 

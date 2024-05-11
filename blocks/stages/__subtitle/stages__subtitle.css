@@ -4,4 +4,19 @@
     line-height: 120%;
     color: #3057a2;
     margin: 0;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
+    max-width: 17.5rem;
+    position: absolute;
+    top: 4.43rem;
+    left: 18.8rem;
+}
+
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .stages__subtitle {
+        top: 8.3rem;
+        left: 0;
+        max-width: 100rem;
+        font-size: 1.12rem;
+    }
 }

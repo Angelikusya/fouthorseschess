@@ -10,4 +10,11 @@
     line-height: 120%;
     color: #3057a2;
     text-align: center; 
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+.participants__more:hover {
+    background: #3057a2;
+    color: #fff;
 }

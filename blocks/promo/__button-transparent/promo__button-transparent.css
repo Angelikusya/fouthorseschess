@@ -1,21 +1,46 @@
 .promo__button-transparent {
+    color: #1f1f1f;
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
     border-radius: 4.12rem;
     padding: 1.25rem;
-    min-width: 16.44rem;
-    min-height: 4.5rem;
+    max-width: 16.44rem;
+    max-height: 4.45rem;
     font-weight: 500;
     font-size: 1rem;
     line-height: 130%;
     text-align: center;
-    color: #1f1f1f;
-    background-color: transparent;
     cursor: pointer;
-    border: 2px solid #1f1f1f;
     z-index: 3;
     transition: background-color 0.4s, color 0.4s;
+    padding: 0 2.5rem;
 }
 
 .promo__button-transparent:hover {
     color: #fff;
     background: #1f1f1f;
+}
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+  .promo__button-transparent {
+    min-height: 4.4rem;
+    padding: 0 4rem;
+  }
+}
+
+
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+  .promo__button-transparent {
+      border: none;
+      padding: 0.5rem 1rem;
+      max-width: 100%;
+      min-height: 2.94rem;
+      background: #fff;
+      opacity: 0.9;
+      font-weight: 500;
+      color: #1f1f1f;
+    }
 }

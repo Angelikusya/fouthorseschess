@@ -1,3 +1,13 @@
 .about__table-graph {
     display: flex;
+    border-bottom: 2px solid #d0d0d0;
+    max-width: 40rem;
+}
+
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__table-graph {
+        flex-direction: column;
+        max-width: 25rem;
+    }
 }

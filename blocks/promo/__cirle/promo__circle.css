@@ -10,10 +10,20 @@
 
 }
 
-  /* 375-1365px+*/
-  @media screen and (max-width: 1919px) {
-    .promo__circle  {
-      top: -2.75rem;
-      right: 1.5rem;
-      }
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+  .promo__circle  {
+    top: -2.75rem;
+    right: 2.4rem;
+    }
+}
+
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+  .promo__circle  {
+    top: 25.56rem;
+    right: 3rem;
+    width: 18.625rem;
+    height: 18.69rem;
   }
+}

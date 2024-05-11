@@ -2,20 +2,25 @@
     display: flex;
     gap: 1rem;
     position: absolute;
-    bottom: 8rem;
-    left: 21.7rem;
+    bottom: 8.25rem;
+    left: 21.8rem;
 }
 
 /* 1365-1919px+*/
 @media screen and (max-width: 1919px) {
     .promo__buttons {
         left: 4.5rem;
+        bottom: 8.2rem;
     }
   }
   
   /* 375-1365px+*/
-  @media screen and (max-width: 1365px) {
-    .promo__buttons {
-
-      }
+@media screen and (max-width: 1365px) {
+  .promo__buttons {
+    flex-direction: column;
+    left: 1.2rem;
+    top: 23.4rem;
+    bottom: 0;
+    width: 90vw;
   }
+}

@@ -1,10 +1,21 @@
 .promo__logo-text {
   font-weight: 700;
-  font-size: 1.06rem;
-  line-height: 108%;
+  font-size: 1rem;
+  /* line-height: 108%; */
   text-transform: uppercase;
   color: #595653;
   margin: 0;
-  font-family: "Golos Text", sans-serif;
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
   padding-left: 0.288875rem;
+  letter-spacing: 0.5px;
+}
+
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+  .promo__logo-text {
+    font-size: 0.88rem;
+    line-height: 108%;
+    padding-left: 0;
+    padding-top: 0.1rem;
+    }
 }

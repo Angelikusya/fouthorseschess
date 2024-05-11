@@ -3,3 +3,17 @@
     gap: 4rem;
     margin-bottom: 1.3rem;
 }
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .about__block{
+
+    }
+}
+ 
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__block{
+        display: none;
+    }
+}

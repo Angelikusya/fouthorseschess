@@ -23,8 +23,9 @@
 @import url("../blocks/promo/__button-transparent/promo__button-transparent.css");
 @import url("../blocks/promo/__pawn/promo__pawn.css");
 @import url("../blocks/promo/__horse/promo__horse.css");
-@import url("../blocks/promo/__running-text/promo__running-text.css");
-@import url("../blocks/promo/__running-line/promo__running-line.css");
+/* running-line */
+@import url("../blocks/running-line/__container/running-line__container.css");
+@import url("../blocks/running-line/__text/running-line__text.css");
 /* about */
 @import url("../blocks/about/about.css");
 @import url("../blocks/about/__title/about__titile.css");
@@ -42,6 +43,10 @@
 @import url("../blocks/about/__table-info/about__table-info.css");
 @import url("../blocks/about/__table-span/about__table-span.css");
 @import url("../blocks/about/__text/about__text.css");
+@import url("../blocks/about/__titles/about__titles.css");
+@import url("../blocks/about/__table-graph/_row/about__table-graph_row.css");
+@import url("../blocks/about/__table-name/_mwidth/about__table-name_mwidth.css");
+@import url("../blocks/about/__table-info/_border/about__table-info_border.css");
 /* stages */
 @import url("../blocks/stages/stages.css");
 @import url("../blocks/stages/__circle/stages__circle.css");

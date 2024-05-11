@@ -3,5 +3,14 @@
     font-size: 1.25rem;
     line-height: 120%;
     color: #3057a2;
-    margin: 2rem 0 0 0;
+    margin: 1.7rem 0 0 1rem;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .about__text {
+        margin: 1.7rem 0 0 0;
+        font-size: 1.12rem;
+    }
 }

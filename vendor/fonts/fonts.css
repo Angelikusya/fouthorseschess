@@ -1,8 +1,23 @@
 @font-face {
-    src: url("Golos_Text/GolosText-VariableFont_wght.ttf") format('woff'),
-         url("InterWeb/Inter-Regular.woff2") format('woff2');
+    src: url("Golos_Text/GolosText-VariableFont_wght.ttf") format('truetype');
     font-family: 'Golos Text';
     font-style: normal;
     font-display: swap; 
+}
+
+@font-face {
+    src: url("Merriweather/Merriweather-Regular.ttf") format('truetype');
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-display: swap; 
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("Merriweather/Merriweather-Bold.ttf") format('truetype');
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-display: swap; 
+    font-weight: 700;
 }
 

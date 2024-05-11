@@ -18,6 +18,10 @@
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .promo__chess-right {
-
+        width: 3.8rem;
+        height: 6.56rem;
+        bottom: 10.4rem;
+        right: 5rem;
+        transform: rotate(0deg);
     }
 }

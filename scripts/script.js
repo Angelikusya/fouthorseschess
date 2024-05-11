@@ -1,7 +1,7 @@
 console.log('код работает');
 
 // animation without duplication the text
-let el = document.getElementById('promo__running-text');
+let el = document.getElementById('running-line__text');
 let text = el.getAttribute('data-text');
 let span = el.querySelector('span');
 

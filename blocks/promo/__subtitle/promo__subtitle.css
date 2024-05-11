@@ -1,10 +1,10 @@
 .promo__subtitle {
     font-weight: 400;
     font-size: 1.12rem;
-    line-height: 130%;
+    line-height: 125%;
     text-align: center;
     color: #313131;
-    font-family: "Merriweather", Arial, sans-serif;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
     max-width: 33.875rem;
     position: absolute;
     top: 24.625rem;
@@ -14,14 +14,17 @@
 /* 1365-1919px+*/
 @media screen and (max-width: 1919px) {
     .promo__subtitle {
-        top: 24.75rem;
-        left: 3.8rem;
+        top: 24.7rem;
+        left: 4.4rem;
     }
   }
   
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
-    .promo__titles {
-
+    .promo__subtitle{
+      top: 16.1rem;
+      left: 1.2rem;
+      max-width: 21rem;
+      text-align: start;
       }
   }

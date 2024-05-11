@@ -3,12 +3,20 @@
     font-size: 1.25rem;
     line-height: 120%;
     color: #313131;
-    border-bottom: 2px solid #d0d0d0; 
     padding: 1rem 0 1rem 1rem;
     margin: 0;
     min-width: 23.875rem;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
 
 .about__table-graph:last-child .about__table-info  {
     border-bottom: none;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .about__table-info {
+        padding: 0.76rem 0 1rem 0;
+        min-width: 21rem;
+    }
 }

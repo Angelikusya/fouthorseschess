@@ -2,3 +2,22 @@
     width: 24.62rem;
     height: 15.62rem;
 }
+
+
+/* 1365-1919px+*/
+@media screen and (max-width: 1919px) {
+    .about__photo {
+        margin-top: -1.9rem;
+    }
+}
+ 
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__photo {
+        font-size: 1.75rem;
+        width: 20.94rem;
+        margin-top: 1.6rem;
+        height: 13.31rem;
+        margin-bottom: 1.5rem;
+    }
+}

@@ -1,0 +1,7 @@
+/* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .about__table-graph_row {
+        flex-direction: row;
+        /* border-bottom: 2px solid #d0d0d0; */
+    }
+}
