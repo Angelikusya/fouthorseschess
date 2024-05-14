@@ -2,9 +2,8 @@
     text-decoration: none;
     border: 1px solid #3057a2;
     border-radius: 3.88rem;
-    padding: 0.75rem;
-    width: 7.06rem;
-    height: 2.19rem;
+    padding: 0.4rem 0.7rem; 
+    max-height: 1.3rem;
     font-weight: 500;
     font-size: 1rem;
     line-height: 120%;
@@ -12,9 +11,18 @@
     text-align: center; 
     cursor: pointer;
     transition: background 0.4s;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
+    margin-left: 0.1rem;
 }
 
 .participants__more:hover {
     background: #3057a2;
     color: #fff;
+}
+
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .participants__more {
+
+    }
 }

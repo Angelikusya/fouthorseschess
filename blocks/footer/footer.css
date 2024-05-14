@@ -8,14 +8,14 @@
     .footer {
         display: block;
         background: #e9ded4;
-        height: 9.38rem;
-        padding: 2.3rem 3rem 3rem;
+        height: 5rem;
+        padding: 1.7rem 4.5rem 2.8rem;
     }
 }
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .footer {
-        height: 9.38rem;
-        padding: 1.6rem 1.2rem 1.4rem;
+        height: 10rem;
+        padding: 1.5rem 1.2rem 1.6rem;
     }
 }

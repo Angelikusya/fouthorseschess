@@ -17,7 +17,9 @@
                 </div>
                 <img class="promo__chess-right" alt='шахматы' src="./images/chess.webp">
                 <img class="promo__chess-left" alt='шахматы' src="./images/chess-queen.webp">
-                <img class="promo__city" alt='город' src="./images/city.webp">
+                <div class="promo__city-container">
+                    <img class="promo__city" alt='город' src="./images/city.webp">
+                </div>
                 <img class="promo__pawn" alt='пешка' src="./images/chess-pawn.webp">
                 <img class="promo__horse" alt='конь' src="./images/chess-horse.webp">
                 <div class="promo__logo">
@@ -39,7 +41,7 @@
                 <button class="promo__button-black">Поддержать шахматную мысль</button>
                 <button class="promo__button-transparent">Подробнее о&nbsp;турнире</button>
             </div>
-        </section>
+        </section> 
 
         <section class="running-line"> 
             <div class="running-line__container">
@@ -94,87 +96,99 @@
             </div>
         </section>
 
-        <section class="stages" id="about">
+        <section class="stages" id="stages">
             <h2 class="stages__title">Этапы преображения Васюков </h2>
             <p class="stages__subtitle">Будущие источники обогащения васюкинцев</p>
-            
-            <div class="stages__container">
-                <div class="stages__step">
+            <img class="stages__photo" alt='самолет' src="./images/aircraft.webp">
+
+            <div class="stages__container">                
+                <div class="stages__step" id="stages-1">
                     <div class="stages__circle">1</div>
                     <p class="stages__text">Строительство железнодорожной магистрали Москва-Васюки</p>
                 </div>
-                <div class="stages__step">
+                <div class="stages__step" id="stages-1">
                     <div class="stages__circle">2</div>
                     <p class="stages__text">Открытие фешенебельной гостиницы «Проходная пешка» и&nbsp;других небоскрёбов</p>
                 </div>
-                <div class="stages__step">
+                <div class="stages__step stages__step_disabled" id="stages-2">
                     <div class="stages__circle">3</div>
                     <p class="stages__text">Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
                 </div>
-                <div class="stages__step">
+                <div class="stages__step stages__step_disabled" id="stages-3">
                     <div class="stages__circle">4</div>
                     <p class="stages__text">Строительство дворца для&nbsp;турнира</p>
                 </div>
-                <div class="stages__step">
+                <div class="stages__step stages__step_disabled" id="stages-3">
                     <div class="stages__circle">5</div>
                     <p class="stages__text">Размещение гаражей для&nbsp;гостевого автотранспорта</p>
                 </div>
-                <div class="stages__step">
-                    <div class="stages__circle">6</div>
+                <div class="stages__step stages__step_disabled" id="stages-4">
+                    <div class="stages__circle" >6</div>
                     <p class="stages__text">Постройка сверхмощной радиостанции для&nbsp;передачи всему миру сенсационных результатов</p>
                 </div>
-                <div class="stages__step">
+                <div class="stages__step stages__step_disabled" id="stages-5">
                     <div class="stages__circle">7</div>
                     <p class="stages__text">Создание аэропорта «Большие Васюки» с&nbsp;регулярным отправлением почтовых самолётов и&nbsp;дирижаблей во&nbsp;все&nbsp;концы света, включая Лос-Анжелос и&nbsp;Мельбурн</p>
-                    <img class="stages__photo" alt='самолет' src="./images/aircraft.webp">
                 </div>
             </div>
+
+            <div class="stages__switsher">
+                <button class="stages__button-left disabled"></button>
+                <div class="stages__counters">
+                    <button class="stages__counter stages__counter_active"></button>
+                    <button class="stages__counter"></button>
+                    <button class="stages__counter"></button>
+                    <button class="stages__counter"></button>
+                    <button class="stages__counter"></button>
+                </div>
+                <button class="stages__button-right"></button>
+            </div>
+
         </section>
 
         <section class="participants">
-            <div class="participants__container">
-                <h2 class="participants__title">Участники турнира</h2>
-                <div class="participants__switsher">
-                    <button class="participants__button-left"></button>
-                    <div class="participants__counters">
-                        <p class="participants__counter participants__counter_dark">3</p>
-                        <p class="participants__counter">&nbsp;/ 6</p>
-                    </div>
-                    <button class="participants__button-right"></button>
-                </div>
+            <h2 class="participants__title">Участники турнира</h2>
+    
+            <div class="participants__switsher">
+                <button class="participants__button-left"></button>
+                <div class="participants__counters">
+                    <p class="participants__counter participants__counter_dark">1</p>
+                    <p class="participants__counter">/ 6</p>
+                </div> 
+                <button class="participants__button-right"></button>
             </div>
             <div class="participants__group">
-                <div class="participants__card">
+                <div class="participants__card" id="participant-1">
                     <img class="participants__photo" alt="Хозе-Рауль Капабланка" src="./images/participants-photo.webp">
                     <p class="participants__name">Хозе-Рауль Капабланка</p>
                     <p class="participants__description">Чемпион мира по шахматам</p>
                     <a class="participants__more">Подробнее</a>
                 </div>
-                <div class="participants__card">
+                <div class="participants__card" id="participant-2">
                     <img class="participants__photo" alt="Эммануил Ласкер" src="./images/participants-photo.webp">
                     <p class="participants__name">Эммануил Ласкер</p>
                     <p class="participants__description">Чемпион мира по шахматам</p>
                     <a class="participants__more">Подробнее</a>
                 </div>
-                <div class="participants__card">
+                <div class="participants__card " id="participant-3">
                     <img class="participants__photo" alt="Александр Алехин" src="./images/participants-photo.webp">
                     <p class="participants__name">Александр Алехин</p>
                     <p class="participants__description">Чемпион мира по шахматам</p>
                     <a class="participants__more">Подробнее</a>
                 </div>
-                <div class="participants__card">
+                <div class="participants__card " id="participant-4">
                     <img class="participants__photo" alt="Арон Нимцович" src="./images/participants-photo.webp">
                     <p class="participants__name">Арон Нимцович</p>
                     <p class="participants__description">Чемпион мира по шахматам</p>
                     <a class="participants__more">Подробнее</a>
                 </div>
-                <div class="participants__card">
+                <div class="participants__card " id="participant-5">
                     <img class="participants__photo" alt="Рихард Рети" src="./images/participants-photo.webp">
                     <p class="participants__name">Рихард Рети</p>
                     <p class="participants__description">Чемпион мира по шахматам</p>
                     <a class="participants__more">Подробнее</a>
                 </div>
-                <div class="participants__card">
+                <div class="participants__card" id="participant-6">
                     <img class="participants__photo" alt="Остап Бендер" src="./images/participants-photo.webp">
                     <p class="participants__name">Остап Бендер</p>
                     <p class="participants__description">Гроссмейстер</p>
@@ -182,6 +196,14 @@
                 </div>
             </div>
         </section>
+
+        <section class="running-line running-line-buttom">
+            <div class="running-line__container running-line__container-buttom">
+                <p class="running-line__text running-line__text-buttom" id="running-line__text-1">Дело помощи утопающим — дело рук самих утопающих! &nbsp; &nbsp; &#9679; &nbsp; &nbsp;Шахматы двигают вперед не только культуру, но и экономику! &nbsp; &nbsp; &#9679; &nbsp; &nbsp; Лёд тронулся, господа присяжные заседатели! &nbsp; &nbsp;  &#9679; &nbsp; &nbsp; Дело помощи утопающим — дело рук самих утопающих! &nbsp; &nbsp; &#9679; &nbsp; &nbsp;Шахматы двигают вперед не только культуру, но и экономику! &nbsp; &nbsp; &#9679; &nbsp; &nbsp; Лёд тронулся, господа присяжные заседатели! &nbsp; &nbsp;  &#9679; &nbsp; &nbsp; Дело помощи утопающим — дело рук самих утопающих! &nbsp; &nbsp; &#9679; &nbsp; &nbsp;Шахматы двигают вперед не только культуру, но и экономику! &nbsp; &nbsp; &#9679; &nbsp; &nbsp; Лёд тронулся, господа присяжные заседатели! &#9679; &nbsp;  &#9679; &nbsp; &nbsp; Дело помощи утопающим — дело рук самих утопающих! &nbsp; &nbsp; &#9679; &nbsp; &nbsp;Шахматы двигают вперед не только культуру, но и экономику! &nbsp; &nbsp; &#9679; &nbsp; &nbsp; Лёд тронулся, господа присяжные заседатели! &#9679; &nbsp;  &#9679; &nbsp; &nbsp;</p>
+            </div>
+        </section>
+        
+        
 
     </main>
     <footer class="footer">

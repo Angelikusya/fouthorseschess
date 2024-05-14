@@ -1,4 +1,4 @@
-.participants__button-right {
+.stages__button-right {
     background: url('../../../images/carousel-right.svg') no-repeat;
     width: 44px;
     height: 44px;
@@ -7,16 +7,25 @@
     cursor: pointer;
 }
 
-.participants__button-right:hover {
+.stages__button-right:hover {
     background: url('../../../images/carousel-right-hover.svg') no-repeat;
     background-size: contain;
 }
 
+.stages__button-right.disabled {
+    background: url('../../../images/button-right-disabled.svg') no-repeat;
+    pointer-events: none; 
+    cursor: not-allowed;
+    background-size: contain;
+}
+
+
   /* 375-1365px+*/
-@media screen and (max-width: 1365px) {
-    .participants__button-right {
+  @media screen and (max-width: 1365px) {
+    .stages__button-right {
         width: 36px;
         height: 36px;
         background-size: contain;
     }
+    
 }

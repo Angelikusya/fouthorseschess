@@ -26,7 +26,7 @@
 /* 1365-1919px+*/
 @media screen and (max-width: 1919px) {
   .promo__button-black {
-    min-height: 4.4rem;
+    max-height: 4.4rem;
   }
 }
 

@@ -1,0 +1,13 @@
+.stages__switsher {
+    display: none;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .stages__switsher {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        margin: 1.8rem auto 0 auto;
+    }
+}

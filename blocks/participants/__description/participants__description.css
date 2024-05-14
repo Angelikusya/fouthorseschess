@@ -4,4 +4,14 @@
     line-height: 120%;
     color: #313131;
     opacity: 0.6;
+    font-family: 'Golos Text', Arial, Helvetica, sans-serif;
+    margin: 0 0 1.2rem 0;
+    text-align: center;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .participants__description{
+        margin: 0 0 1.4rem 0;
+    }
 }

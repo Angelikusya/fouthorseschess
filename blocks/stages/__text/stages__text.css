@@ -9,8 +9,13 @@
     font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
 
-
-
 .stages__text:last-of-type {
     max-width: 28rem;
+}
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .stages__text {
+        font-size: 1.12rem;
+    }
 }

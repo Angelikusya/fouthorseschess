@@ -1,3 +1,11 @@
 .participants__counters {
     display: flex;
 }
+
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .participants__counters {
+        gap: 0.01rem;
+    }
+}

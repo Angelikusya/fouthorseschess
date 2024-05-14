@@ -1,0 +1,4 @@
+.stages__counters {
+    display: flex;
+    gap: 0.25rem;
+}

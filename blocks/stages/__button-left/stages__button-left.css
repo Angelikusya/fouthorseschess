@@ -1,4 +1,4 @@
-.participants__button-left {
+.stages__button-left {
     background: url('../../../images/carousel-left.svg') no-repeat;
     width: 44px;
     height: 44px;
@@ -6,18 +6,24 @@
     border: none;
     cursor: pointer;
 }
-
-.participants__button-left:hover {
+    
+.stages__button-left:hover {
     background: url('../../../images/carousel-left-hover.svg') no-repeat;
+    background-size: contain;
+}
+
+.stages__button-left.disabled {
+    background: url('../../../images/button-left-disabled.svg') no-repeat;
+    pointer-events: none; /* Отключаем возможность клика на кнопку */
+    cursor: not-allowed; /* Меняем курсор на "не доступно" */
     background-size: contain;
 }
 
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
-    .participants__button-left {
+    .stages__button-left {
         width: 36px;
         height: 36px;
         background-size: contain;
-
     }
 }

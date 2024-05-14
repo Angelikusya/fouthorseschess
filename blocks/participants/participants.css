@@ -7,13 +7,14 @@
 @media screen and (max-width: 1919px) {
     .participants {
         display: block;
-        margin: 10.2rem 4.5rem 0;
+        margin: 11.5rem 4.5rem 8.77rem;
+        position: relative;
     }
 }
  
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .participants {
-
+        margin: 7.5rem 1.2rem 11rem;
     }
 }

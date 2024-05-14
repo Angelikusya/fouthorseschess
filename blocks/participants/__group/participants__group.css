@@ -1,5 +1,15 @@
 .participants__group {
     display: flex;
     flex-direction: row;
-    gap: 5.2rem;
+    gap: 5.9rem;
+    margin: 3.7rem 2.3rem 0;
+}
+
+  /* 375-1365px+*/
+@media screen and (max-width: 1365px) {
+    .participants__group {
+        margin: 2.6rem auto 0;
+        flex-direction: column;
+        gap: 0;
+    }
 }

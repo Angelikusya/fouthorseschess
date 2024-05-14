@@ -1,10 +1,11 @@
 .stages__step {
     display: flex;
     height: 4.43rem;
-    position: relative;
     background: url('../../../images/stages-background1.webp') no-repeat;
     padding: 1.2rem 1.3rem;
     background-size: cover;
+    z-index: 1;
+    transition: height 0.5s; 
 }
 
 .stages__step:nth-child(3),
@@ -27,4 +28,54 @@
     height: 6rem;
     background: url('../../../images/stages-background2.webp') no-repeat;
     background-size: cover;
+    
 }
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .stages__step {
+        height: 7.45rem;
+        position: relative;
+        background: url('../../../images/b-s-1.webp') no-repeat;
+        padding: 3.7rem 1rem 0 1.2rem;
+        background-size: cover;
+    }
+
+    .stages__step:nth-child(2) {
+        padding-top: 0;
+    }
+
+    .stages__step:nth-child(3),
+    .stages__step:nth-child(6) {
+        grid-row: span 1;
+    }
+
+    .stages__step:nth-child(3) {
+        height: 14.9rem;
+        background: url('../../../images/stages-background4.webp');
+        background-size: cover;
+    }
+
+    .stages__step:nth-child(4) {
+        padding-bottom: 0;
+        height: 4.5rem;
+    }
+
+    .stages__step:nth-child(5) {
+        padding-top: 0;
+        height: 10.4rem;
+    }
+
+    .stages__step:nth-child(6) {
+        height: 14.9rem;
+        background: url('../../../images/stages-background4.webp');
+        background-size: cover;
+        padding-right: 2rem;
+    }
+
+    .stages__step:nth-child(7) {
+        height: 14.9rem;
+        background: url('../../../images/stages-background4.webp');
+        background-size: cover;
+    }
+  }

@@ -1,0 +1,18 @@
+.running-line__container-buttom {
+    display: flex;
+    overflow: hidden;
+}
+
+.running-line__text-buttom {
+    white-space: nowrap;
+    animation: moveText 27s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}

@@ -12,3 +12,12 @@
     align-items: center;
     font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
+
+  /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .stages__button-left {
+        width: 36px;
+        height: 36px;
+        background-size: contain;
+    }
+}

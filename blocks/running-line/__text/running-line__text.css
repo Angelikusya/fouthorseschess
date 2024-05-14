@@ -8,11 +8,9 @@
     font-family:  'Merriweather', Arial, Helvetica, sans-serif;
     margin: 0;
     white-space: nowrap;
-    width: 100vw;
+    width: 100%;
     display: inline-block;
-    height: 1.518rem; 
-    
-    /* animation: slide 10s linear infinite; */
+    height: 1.51rem; 
 }
 
   /* 375-1365px+*/
@@ -22,13 +20,3 @@
         height: 1rem; 
     }
 }
-
-
-/* @keyframes slide {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-} */

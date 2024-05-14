@@ -1,6 +1,11 @@
 .participants__card {
-    display: flex;
     flex-direction: column;
     max-width: 24.62rem;
     align-items: center;
+    display: flex;
 }
+
+.participants__card.disabled {
+    display: none;
+}
+

@@ -26,6 +26,9 @@
 /* running-line */
 @import url("../blocks/running-line/__container/running-line__container.css");
 @import url("../blocks/running-line/__text/running-line__text.css");
+@import url("../blocks/running-line-buttom/__container-buttom/running-line__container-buttom.css");
+@import url("../blocks/running-line-buttom/__text-buttom/running-line__text-buttom.css");
+
 /* about */
 @import url("../blocks/about/about.css");
 @import url("../blocks/about/__title/about__titile.css");
@@ -56,9 +59,15 @@
 @import url("../blocks/stages/__text/stages__text.css");
 @import url("../blocks/stages/__title/stages__title.css");
 @import url("../blocks/stages/__photo/stages__photo.css");
+@import url("../blocks/stages/__switsher/stages__switsher.css");
+@import url("../blocks/stages/__button-left/stages__button-left.css");
+@import url("../blocks/stages/__counters/stages__counters.css");
+@import url("../blocks/stages/__counter/stages__counter.css");
+@import url("../blocks/stages/__button-right/stages__button-right.css");
+@import url("../blocks/stages/__counter/_active/stages__counter_active.css");
+@import url("../blocks/stages/__step/_disabled/stages__step_disabled.css");
 /* patricipants */
 @import url("../blocks/participants/participants.css");
-@import url("../blocks/participants/__container/participants__container.css");
 @import url("../blocks/participants/__title/participants__title.css");
 @import url("../blocks/participants/__switsher/participants__switsher.css");
 @import url("../blocks/participants/__button-left/participants__button-left.css");
