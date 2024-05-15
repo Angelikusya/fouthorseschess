@@ -23,6 +23,6 @@
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .participants__more {
-
+        margin-bottom: 0.1rem;
     }
 }

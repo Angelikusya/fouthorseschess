@@ -6,8 +6,9 @@
 /* 1365-1919px+*/
 @media screen and (max-width: 1919px) {
     .participants {
-        display: block;
-        margin: 11.5rem 4.5rem 8.77rem;
+        display: flex;
+        flex-direction: column;
+        margin: 8.6rem 4.5rem 8.77rem;
         position: relative;
     }
 }
@@ -15,6 +16,6 @@
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .participants {
-        margin: 7.5rem 1.2rem 11rem;
+        margin: 5.8rem 1.2rem 6.3rem;
     }
 }

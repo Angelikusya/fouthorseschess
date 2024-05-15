@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: row;
     gap: 5.9rem;
-    margin: 3.7rem 2.3rem 0;
+    margin: 1.2rem auto 0;
+    align-items: center;
 }
 
   /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .participants__group {
-        margin: 2.6rem auto 0;
+        margin: 0.7rem auto 0;
         flex-direction: column;
         gap: 0;
     }

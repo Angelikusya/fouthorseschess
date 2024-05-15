@@ -1,0 +1,10 @@
+.participants__switsher_bottom {
+    display: none;
+}
+
+@media screen and (max-width: 1365px) {
+    .participants__switsher_bottom {
+        display: flex;
+        margin-top: 2.5rem;
+    }
+}

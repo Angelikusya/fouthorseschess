@@ -2,17 +2,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    top: 0.5rem;
-    right: 0rem;
+    gap: 0.5rem;
 }
 
 @media screen and (max-width: 1365px) {
     .participants__switsher {
-        right: 6.5rem;
-        top: 0;
-        bottom: -39rem;
-        gap: 0.5rem;
+        display: none;
     }
 }
+
+
+.participants__switsher_bottom {
+    display: none;
+}
+
+@media screen and (max-width: 1365px) {
+    .participants__switsher_bottom {
+        display: flex;
+        margin-top: 2.5rem;
+    }
+}
+

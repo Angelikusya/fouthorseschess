@@ -10,7 +10,14 @@
 }
 
   /* 375-1365px+*/
-@media screen and (max-width: 1365px) {
+  /* @media screen and (max-width: 1365px) {
+    .about__title {
+        font-size: 1.75rem;
+        max-width: 20.94rem;
+    }
+} */
+  /* 375-1365px+*/
+@media screen and (max-width: 687px) {
     .about__title {
         font-size: 1.75rem;
         max-width: 20.94rem;

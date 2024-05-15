@@ -16,7 +16,7 @@
   }
   
   /* 375-1365px+*/
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 687px) {
     .promo__horse {
         right: 7.8rem;
         width: 6.5rem;

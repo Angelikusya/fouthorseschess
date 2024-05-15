@@ -4,7 +4,6 @@
     border: 2px solid #1f1f1f;
     font-family: 'Golos Text', Arial, Helvetica, sans-serif;
     border-radius: 4.12rem;
-    padding: 1.25rem;
     max-width: 16.44rem;
     max-height: 4.45rem;
     font-weight: 500;
@@ -14,7 +13,7 @@
     cursor: pointer;
     z-index: 3;
     transition: background-color 0.4s, color 0.4s;
-    padding: 0 2.5rem;
+    padding: 1rem 3.5rem;
 }
 
 .promo__button-transparent:hover {

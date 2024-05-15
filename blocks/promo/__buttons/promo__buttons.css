@@ -4,6 +4,7 @@
     position: absolute;
     bottom: 8.25rem;
     left: 21.8rem;
+    width: 40vw;
 }
 
 /* 1365-1919px+*/
@@ -11,16 +12,25 @@
     .promo__buttons {
         left: 4.5rem;
         bottom: 8.2rem;
+        width: 90vw;
     }
   }
-  
-  /* 375-1365px+*/
-@media screen and (max-width: 1365px) {
+
+
+    /* 375-1365px+*/
+  @media screen and (max-width: 1365px) {
+    .promo__buttons {
+      width: 40vw;
+      flex-direction: column;
+      left: 1.2rem;
+      top: 23.4rem;
+      bottom: 0;
+    }
+  }
+
+    /* 375-1365px+*/
+@media screen and (max-width: 687px) {
   .promo__buttons {
-    flex-direction: column;
-    left: 1.2rem;
-    top: 23.4rem;
-    bottom: 0;
     width: 90vw;
   }
 }

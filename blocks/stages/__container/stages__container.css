@@ -11,7 +11,7 @@
         /* display: none; */
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: none;
-        margin-top: 13rem;
+        margin-top: 12.8rem;
         grid-gap: 0;
     }
 }

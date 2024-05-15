@@ -2,5 +2,6 @@
 @media screen and (max-width: 1365px) {
     .about__table-info_border {
         border: none;
+        width: 6.25rem;
     }
 }

@@ -5,11 +5,11 @@
     width: 48rem;
     height: 48rem;
     mix-blend-mode: overlay;
-    animation: rotate 26s linear infinite;
+    /* animation: rotate 26s linear infinite; */
 }
 
   /* 375-1365px+*/
-  @media screen and (max-width: 1365px) {
+  @media screen and (max-width: 687px) {
     .promo__circle-image  {
         width: 21.625rem;
         height: 21.625rem;
@@ -19,8 +19,8 @@
   }
 
 
-/* 
-@keyframes rotate {
+
+/* @keyframes rotate {
     from {
         transform: rotate(0deg);
     }

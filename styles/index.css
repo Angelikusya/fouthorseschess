@@ -70,6 +70,7 @@
 @import url("../blocks/participants/participants.css");
 @import url("../blocks/participants/__title/participants__title.css");
 @import url("../blocks/participants/__switsher/participants__switsher.css");
+@import url("../blocks/participants/__switsher/__bottom/participants__switsher_bottom.css");
 @import url("../blocks/participants/__button-left/participants__button-left.css");
 @import url("../blocks/participants/__counters/participants__counters.css");
 @import url("../blocks/participants/__counter/participants__counter.css");
@@ -81,6 +82,8 @@
 @import url("../blocks/participants/__description/participants__description.css");
 @import url("../blocks/participants/__more/participants__more.css");
 @import url("../blocks/participants/__card/participants__card.css");
+@import url("../blocks/participants/__title-container/participants__title-container.css");
+
 /* footer */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/footer__text/footer__text.css");

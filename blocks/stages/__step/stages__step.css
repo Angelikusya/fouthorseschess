@@ -34,10 +34,10 @@
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
     .stages__step {
-        height: 7.45rem;
+        height: 7.4rem;
         position: relative;
         background: url('../../../images/b-s-1.webp') no-repeat;
-        padding: 3.7rem 1rem 0 1.2rem;
+        padding: 3.8rem 1.1rem 0 1.3rem;
         background-size: cover;
     }
 

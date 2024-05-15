@@ -4,6 +4,11 @@
     max-width: 40rem;
 }
 
+.about__table-graph:last-child {
+    border-bottom: none;
+}
+
+
 /* 375-1365px+*/
 @media screen and (max-width: 1365px) {
     .about__table-graph {

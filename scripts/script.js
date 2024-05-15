@@ -1,22 +1,28 @@
 console.log('код работает');
 
 // animation without duplication the text
-let elements = document.querySelectorAll('.running-line__text');
+document.addEventListener('DOMContentLoaded', function() {
+    let elements = document.querySelectorAll('.running-line__text');
 
-elements.forEach(function(el) {
-    let text = el.getAttribute('data-text');
-    let span = el.querySelector('span');
-    
-    let index = 0;
-    
-    setInterval(function() {
-        index = (index + 1) % text.length;
-        span.textContent = text.substring(index) + text.substring(0, index);
-        if (index === 0) {
-            text = span.textContent;
+    elements.forEach(function(el) {
+        let text = el.getAttribute('data-text');
+        let span = el.querySelector('span');
+        
+        if (span) { // Проверка на существование span
+            let index = 0;
+            
+            setInterval(function() {
+                index = (index + 1) % text.length;
+                span.textContent = text.substring(index) + text.substring(0, index);
+                if (index === 0) {
+                    text = span.textContent;
+                }
+            }, 250);
         }
-    }, 250);
+    });
 });
+
+
 
 
 // link from button to section about
@@ -164,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (mediaQuery.matches) {
         var participants = document.querySelectorAll('.participants__card');
-        var counter = document.querySelectorAll('.participants__counter');
+        var counter = document.querySelectorAll('.participants__counter_bottom');
         var currentParticipantIndex = 0;
         var participantsToDisable = document.querySelectorAll('#participant-2, #participant-3, #participant-4, #participant-5, #participant-6');
 
@@ -181,11 +187,11 @@ document.addEventListener('DOMContentLoaded', function() {
             counter[0].textContent = currentParticipantIndex + 1; // update counter
         }
 
-        document.querySelector('.participants__button-left').addEventListener('click', function() {
+        document.querySelector('.participants__button-left_bottom').addEventListener('click', function() {
             switchParticipants('left');
         });
 
-        document.querySelector('.participants__button-right').addEventListener('click', function() {
+        document.querySelector('.participants__button-right_bottom').addEventListener('click', function() {
             switchParticipants('right');
         });
 

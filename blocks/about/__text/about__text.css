@@ -10,7 +10,7 @@
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
     .about__text {
-        margin: 1.7rem 0 0 0;
+        margin: 1.3rem 0 0 0;
         font-size: 1.12rem;
     }
 }
