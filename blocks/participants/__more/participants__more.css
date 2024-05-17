@@ -10,7 +10,7 @@
     color: #3057a2;
     text-align: center; 
     cursor: pointer;
-    transition: background 0.4s;
+    transition: background 1s, background-size 1s;
     font-family: 'Golos Text', Arial, Helvetica, sans-serif;
     margin-left: 0.1rem;
 }

@@ -198,11 +198,11 @@ document.addEventListener('DOMContentLoaded', function() {
         function startAutoSwitch() {
             setTimeout(function() {
                 switchParticipants('right');
-                startAutoSwitch(); // повторять автоматическое перелистывание
-            }, 4000); // повторять каждые 5 секунд
+                startAutoSwitch(); // repeat automatically 
+            }, 4000); // repeat every 4 sec
         }
 
-        startAutoSwitch(); // Начать автоматическое перелистывание только если ширина <= 1366px
+        startAutoSwitch(); // automatic scroll if  the screen  width is <= 1366px
 
         participantsToDisable.forEach(function(participant) {
             participant.classList.add('disabled');
@@ -220,9 +220,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const buttonRight = document.querySelector('.participants__button-right');
         const buttonLeft = document.querySelector('.participants__button-left');
         const counterDark = document.querySelector('.participants__counter_dark');
-        let currentCardIndex = 3; // Начинаем с третьей карточки (индекс 2)
+        let currentCardIndex = 3;
 
-        // Функция для отображения нужного количества карточек
+        // show 3 cards
         function showCards() {
             cards.forEach((card, index) => {
                 if (index >= currentCardIndex && index <= currentCardIndex + 2) {
@@ -233,28 +233,28 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
-        // Обработчик события для кнопки "Вправо"
+        // right switch
         buttonRight.addEventListener('click', function() {
             currentCardIndex = (currentCardIndex + 3) % cards.length;
             showCards();
             counterDark.textContent = currentCardIndex + 3;
         });
 
-        // Обработчик события для кнопки "Влево"
+        // left switch
         buttonLeft.addEventListener('click', function() {
             currentCardIndex = (currentCardIndex - 3 + cards.length) % cards.length;
             showCards();
             counterDark.textContent = currentCardIndex + 1;
         });
 
-        // Бесконечная анимация
+        // automatic scroll every 4 secs
         function animateCards() {
-            buttonRight.click(); // Симулируем клик по кнопке "Вправо" для бесконечного цикла
-            setTimeout(animateCards, 4000); // Повторяем каждые 4 секунды
+            buttonRight.click();
+            setTimeout(animateCards, 4000); 
         }
 
-        animateCards(); // Начинаем бесконечную анимацию
+        animateCards(); 
 
-        showCards(); // Показываем изначально три карточки
+        showCards(); 
     }
 });

@@ -2,7 +2,7 @@
     background: url('../../../images/carousel-right.svg') no-repeat;
     width: 44px;
     height: 44px;
-    transition: background 0.4s;
+    transition: background 1s, background-size 1s; /* Добавлен переход для background-size */
     border: none;
     cursor: pointer;
 }

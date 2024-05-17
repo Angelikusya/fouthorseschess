@@ -1,10 +1,12 @@
 /* 1920px+*/
-.promo{
+.promo {
   background-color: #E9DED4;
   height: 700px;
   position: relative;
   overflow: hidden;
+  animation: slideInFromBottom 0.8s forwards; /* Анимация выезжания */
 }
+
 
 @media screen and (max-width: 1919px) {
   .promo {
@@ -15,5 +17,14 @@
 @media screen and (max-width: 1365px) {
   .promo {
     height: 774px;  
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+      transform: translateY(100%);
+  }
+  to {
+      transform: translateY(0%);
   }
 }

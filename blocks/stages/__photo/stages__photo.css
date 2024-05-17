@@ -8,6 +8,10 @@
 
 }
 
+.stages__photo:hover {
+    animation: planeCircle 5s linear infinite;
+}
+
   /* 375-1365px+*/
   @media screen and (max-width: 1365px) {
     .stages__photo {
@@ -16,5 +20,23 @@
         top: 12.2rem;
         right: -.3rem;
         transform: rotate(-3deg);
+    }
+}
+
+@keyframes planeCircle {
+    0% {
+        transform: rotate(0deg) translateY(0.5rem) rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg) translateY(3rem) rotate(-90deg);
+    }
+    50% {
+        transform: rotate(180deg) translateY(2rem) rotate(-180deg);
+    }
+    75% {
+        transform: rotate(270deg) translateY(1rem) rotate(-270deg);
+    }
+    100% {
+        transform: rotate(360deg) translateY(0.1rem) rotate(-360deg);
     }
 }
