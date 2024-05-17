@@ -4,6 +4,7 @@
     position: absolute;
     bottom: 1.22375rem;
     right: 20rem;
+    z-index: 10;
 }
 
 /* 1365-1919px+*/
